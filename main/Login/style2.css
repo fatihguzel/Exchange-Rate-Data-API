@@ -7,7 +7,6 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* background-position: right center; */
 }
 
 .box{
@@ -19,6 +18,8 @@ body{
     transform: translate(-50%,-50%);
     background: rgba(0,0,0,0.4);
     text-align: center;
+    border: 2px dotted #dc4d14;
+    border-radius: 40px 0px 40px 0px;
 }
 
 .box h1{
