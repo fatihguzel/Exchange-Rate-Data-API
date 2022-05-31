@@ -7,7 +7,6 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* background-position: right center; */
 }
 
 .box{
@@ -19,6 +18,8 @@ body{
     transform: translate(-50%,-50%);
     background: rgba(0,0,0,0.4);
     text-align: center;
+    border: 2px dotted #dc4d14;
+    border-radius: 40px 0px 40px 0px;
 }
 
 .box h1{
@@ -41,6 +42,24 @@ body{
     transition: 0.25px;
 }
 #password:focus{
+    width: 270px;
+    border-color: #ffc400ec;
+}
+#password2{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+#password2:focus{
     width: 270px;
     border-color: #ffc400ec;
 }
